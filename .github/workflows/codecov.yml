@@ -3,7 +3,7 @@ name: check-coverage-by-codecov
 on:
   push:
     branches:
-      - *
+      - '*'
     pull_request:
       types: [ opened, synchronize, reopened ]
 
