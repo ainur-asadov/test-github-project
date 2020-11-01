@@ -9,10 +9,10 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class StringSupplierControllerTest {
 
+    private final RestTemplate restTemplate = new RestTemplate();
+
     @LocalServerPort
     private int port;
-
-    private final RestTemplate restTemplate = new RestTemplate();
 
     @Test
     void strings_default_correctStringReturned() {
