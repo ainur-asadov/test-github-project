@@ -14,6 +14,10 @@
     <artifactId>test-github-project-service</artifactId>
     <packaging>jar</packaging>
 
+    <description>
+        Модуль бизнес-логики тестового проекта.
+    </description>
+
     <dependencies>
         <!--base dependencies-->
         <dependency>

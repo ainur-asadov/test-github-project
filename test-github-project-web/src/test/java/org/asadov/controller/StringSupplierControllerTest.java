@@ -1,4 +1,4 @@
-package org.asadov.contoller;
+package org.asadov.controller;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
