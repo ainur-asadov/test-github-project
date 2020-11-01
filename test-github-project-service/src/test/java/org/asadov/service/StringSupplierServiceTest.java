@@ -1,19 +1,19 @@
 package org.asadov.service;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  * Тестовые сценарии для проверки {@link StringSupplierService}.
  */
-public class StringSupplierServiceTest {
+class StringSupplierServiceTest {
 
     /**
      * Проверяет корректность ответа при вызове {@link StringSupplierService#getString()}.
      */
     @Test
-    public void getString_default_correctStringReturned() {
-        Assert.assertEquals("Some String", new StringSupplierService().getString());
+    void getString_default_correctStringReturned() {
+        Assertions.assertEquals("Some String", new StringSupplierService().getString());
     }
 
 }
